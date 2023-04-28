@@ -1,0 +1,11 @@
+{
+	"name": "Suricata",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"StamusNetworks.suricata-ls"
+			]
+		}
+	}
+}
