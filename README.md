@@ -1,10 +1,17 @@
-# Codespace Demo
+# Suricata Codespace for Users
 
 ## Instructions
 
+### Using GitHub Codespaces
+
 - Fork this repo
 - Open as a codespace on GitHub at https://github.com/codespaces (or see next step)
-- Or, open locally in VSCode and open a terminal once containers have been created.
+
+### Running Locally
+
+- Clone this repo
+- Open in Visual Studio Code
+- When prompted, "Reopen in Container"
 
 ## Things to Try
 
