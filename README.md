@@ -17,9 +17,10 @@ suricata -r ./pcaps/eicar.com.pcap
 ### View Alert with JQ
 
 ```
-jq -c 'select(.event_type == "alert")'
+jq -c 'select(.event_type == "alert")' ./eve.json
 ```
 
 ### Modify / Create a Rule
 
-In VSCode (locally, or in the Codespace), open `rules/demo.rules` and start creating a rule. The Suricata Language Server should help you along.
+In VSCode (locally, or in the Codespace), open `rules/demo.rules` and start
+creating a rule. The Suricata Language Server should help you along.
